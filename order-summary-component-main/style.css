@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+--Very-pale-blue: hsl(228, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+--Pale-blue: hsla(225, 100%, 94%, 0.438);
+--Bright-blue: hsl(245, 75%, 52%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+main {
+    width: 400px;
+    height: 600px;
+
+}
+
+section.top-imagem {
+    background-color: aqua;
+    min-height: 180px;
+    background: url(images/illustration-hero.svg);
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+section.top-imagem img {
+    max-width: 399px;
+}
+
+section.conteudo {
+    border-radius: 0px 0px 15px 15px;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 50px 50px 1px 50px;
+     
+}
+
+div.description {
+    text-align: center;
+
+}
+div.description h1{
+    font-weight: 900;
+    color:var(--Dark-blue);
+
+}
+div.description p {
+    margin: 20px 0px;
+    color: var(--Desaturated-blue);
+    
+}
+
+div.plan {
+    background-color: var(--Pale-blue);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    
+
+}
+div.plan a:hover{
+    text-decoration: none;
+    color: hsl(245, 52%, 45%);
+}
+
+div.buttom {
+    text-align: center;
+
+}
+div.buttom p{
+    margin-bottom: 40px;
+    
+}
+p.btn a {
+    text-decoration: none;
+    width: 360px;
+    padding: 10px 70px;
+    background-color: var(--Bright-blue);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-bottom: px;
+    box-shadow: 2px 20px 15px hsla(245, 78%, 55%, 0.199);
+
+}
+p.btn a:hover{
+    background-color: hsl(245, 89%, 65%);
+
+}
+
+p.cancel a {
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+    font-weight: 700;
+}
+p.cancel a:hover{
+    color: hsl(223, 19%, 37%);
+}
+
+div.plan-value {
+    padding: 10px;
+    margin-right: 70px;
+}
+div.plan img {
+    width: 40px;
+    height: 40px;
+}
+
+
+p.valor {
+    font-weight: 500;
+    margin: px 0px;
+}
+
+
