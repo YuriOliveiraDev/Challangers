@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+div.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+    
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    padding-bottom: 40px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main h1 {
+    padding: 10px;
+    color: hsl(179, 62%, 43%);
+}
+
+main h2 {
+    padding: 10px;
+    color: hsl(71, 73%, 54%);
+}
+
+main p {
+    padding: 10px;
+    color: hsl(202, 6%, 66%);
+}
+
+div.bottom {
+    display: flex;
+}
+
+section.price {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 0px 10px;
+    padding: 40px 40px 0px 40px;
+    width: 400px;
+}
+
+section.price h3 {
+    color: hsla(0, 0%, 100%, 0.966);
+    padding-bottom: 15px;
+}
+section.price p {
+    padding-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.719);
+}
+
+section.us {
+    background-color: hsla(179, 62%, 43%, 0.774);
+    border-radius: 0px 0px 10px 0px;
+    padding: 30px;
+    width: 400px;
+}
+section.us h3{
+    color: white;
+    padding: 15px ;
+}
+section.us p{
+    color: white;
+    padding: 15px ;
+    width: 80%;
+}
+
+
+
+p.value {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: hsla(0, 0%, 100%, 0.719);
+}
+
+
+p.value spam{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 20px;
+}
+
+a {
+    padding: 15px 105px;
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 1px 3px 10px hsla(178, 63%, 24%, 0.377);
+
+}
+
+a:hover {
+    background-color: hsl(179, 61%, 28%);
+    transition-duration: 0.1s;
+}
+
+div.bottomPrice {
+    text-align: center;
+    margin: 40px 0px;
+   
+}
+
+/* 730px */
+
+@media only screen and (max-width:730px) {
+    div.container {
+        
+    }
+
+    div.bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        border-radius: 7px 7px 0px 0px;
+    }
+
+    .card {
+        width:350px;
+    }
+    main h1 {
+        font-size: 1.4rem;
+    }
+
+    main h2 {
+        font-size: 1.1rem;
+    }
+
+    main p {
+        line-height: 1.5rem;
+    }
+
+    section.price {
+        width: 350px;
+        border-radius:0px;
+    }
+
+    section.us {
+        width: 350px;
+        border-radius: 0px 0px 7px 7px;
+        line-height: 1.5rem;
+    }
+
+}
