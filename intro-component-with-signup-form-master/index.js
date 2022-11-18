@@ -3,10 +3,8 @@ const sobreNome = document.querySelector('#sname')
 const email = document.querySelector('#email')
 const senha = document.querySelector('#password')
 const aviso = document.querySelectorAll('.aviso')
-let str = email.value;
-var regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-
 const form = document.querySelector('#form')
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 })
@@ -37,9 +35,3 @@ function validar () {
         aviso[3].style.display = 'none';
     }
 }
-
-
-function checkEmail(email) {
-    return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-        email
-};
