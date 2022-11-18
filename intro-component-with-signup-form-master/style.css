@@ -31,8 +31,9 @@ div.test {
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.062);
-    height: 60px;
-    line-height: 40px;
+}
+div.test p{
+    padding: 10px 0px;
 }
 a {
     text-decoration: none;
@@ -188,6 +189,9 @@ button {
     }
     div.test { 
         padding: 15px 60px; 
+    }
+    div.test p{
+        padding: 0px 0px;
     }
     section.content-form {
         width: 300px;
