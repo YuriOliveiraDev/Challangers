@@ -17,7 +17,7 @@ body {
     padding: 40px;
 }
 section.text{
-    width: 700px;
+    width: 550px;
 }
 section.text h1{
     font-size: 3rem;
@@ -31,12 +31,14 @@ div.test {
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.062);
+    height: 60px;
+    line-height: 40px;
 }
 a {
     text-decoration: none;
 }
 section.content-form {
-    width: 650px;
+    width: 550px;
 }
 div.form {
     background-color: #fff;
@@ -52,9 +54,9 @@ input {
     border-radius: 5px;
     color: rgb(0, 0, 0);
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     outline-color: rgba(0, 0, 0, 0.575);
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     
 }
 input::placeholder {
