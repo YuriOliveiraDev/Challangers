@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/0a18144721.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="text">
+    <h1>Learn to code by watching others</h1>
+    <p>
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable.
+    </p>
+  </section>
+
+  <section class="content-form">
+
+      <div class="test">
+        <p><strong>Try it free 7 days</strong> then $20/mo. thereafter </p>
+      </div>
+    
+    <div class="form">
+      
+      <form id="form">
+       
+          <div class="posicao">
+            <input type="text" id="name" placeholder="First Name " class="required">
+            <div class="aviso">
+              <p>First Name cannot be empty</p>
+              <i class="fa-solid fa-exclamation"></i>
+            </div>
+          </div>
+             
+          <div class="posicao">
+            <input type="text" id="sname" placeholder="Last Name" class="required">
+            <div class="aviso">
+              <p>Last Name cannot be empty</p>
+              <i class="fa-solid fa-exclamation"></i>
+            </div>
+          </div>
+
+          <div class="posicao">
+            <input type="email" name="email" id="email" placeholder="Email Address" class="required">
+            <div class="aviso">
+              <p>Looks like this is not an email</p>
+              <i class="fa-solid fa-exclamation"></i>
+            </div>
+          </div>
+
+          <div class="posicao">
+            <input type="password" name="password" id="password" placeholder="Password" class="required">
+            <div class="aviso">
+              <p>Password cannot be empty</p>
+              <i class="fa-solid fa-exclamation"></i>
+            </div>
+          </div>
+
+          <button type="submit" class="submit" onclick="validar()">CLAIM YOUR FREE TRIAL</button>
+        
+          <p class="term">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+
+      </form>
+
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
+
+<!-- <i class="fa-solid fa-exclamation"></i> -->
