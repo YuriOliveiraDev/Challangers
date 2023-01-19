@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+.card {
+    width: 375px;
+}
+#image {
+    background-color: hsl(277, 70%, 34%);
+    border-radius: 10px 10px 0px 0px;
+    height: 280px;
+}
+span {
+    color:hsl(277, 64%, 61%);
+    font-size: 2rem;
+}
+.description {
+    background-color: hsl(244, 38%, 16%);
+    text-align: center;
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+img.mobile {
+    width: 100%;
+    height: 280px;
+    opacity: 50%;
+    border-radius: 10px 10px 0px 0px;
+}
+img.desktop {
+    display: none;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+}
+p.main {
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+p.st {
+    font-size: 0.8rem;
+    padding-bottom: 30px;
+}
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+h2 {
+    color:hsl(0, 0%, 100%);
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 1060px){
+
+.description {
+    background-color: hsl(244, 38%, 16%);
+    text-align: start;
+    padding: 50px 100px 20px 50px;
+    border-radius: 10px 0px 0px 10px;
+    width: 700px;
+
+}
+#image {
+    background-color: hsl(277, 70%, 34%);
+    border-radius: 0px 10px 10px 0px;
+    height: 450px;
+}
+.card {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   width: 1000px;
+   height: 450px;
+}
+img.mobile {
+    display: none;
+}
+img.desktop {
+    height: 450px;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 50%;
+    display: flex;
+}
+#sts {
+    display: flex;
+}
+.s {
+    padding-right: 50px;
+}
+}
+
